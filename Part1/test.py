@@ -3,7 +3,4 @@
 # mylist에 들은 각 원소의 길이를 담은 리스트를 리턴하도록 solution 함수를 작성해주세요.
 
 def solution(mylist):
-    answer = []
-    for lis in mylist:
-        answer.append(len(lis))
-    return answer
+    return list(map(len, mylist))
